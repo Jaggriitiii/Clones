@@ -1,0 +1,279 @@
+*{
+  margin:0;
+  border:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+  height:60px;
+  background-color: #0F1111;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo{
+  height:45px;
+  width:138px;
+  margin-top:4px;
+}
+.logo img{
+  height:45px;
+  width:100%; 
+}
+.border:hover{
+  border: 2px solid white;
+}
+.adress{
+  position: relative;
+  top:-3px;
+}
+.adress p{
+  color:#cccccc;
+  font-size: 0.85rem;
+}
+.padr{
+  margin-left:17px;
+}
+.icon{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:5px;
+}
+.icon p{
+  color:white;
+  font-size:1.25rem;
+  font-weight: 500;
+}
+.search{
+  display:flex;
+  align-items: center;
+  height:40px;
+  border-radius:4px;
+  background-color: orange;
+}
+
+.search select{ border:none;
+  height:40px;
+  width:52px;
+  background-color: #f3f3f3;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+ 
+}
+.search input{
+  border:none;
+  width:620px; 
+  height:38px;
+  font-size: 1.2rem;
+}
+.searchlogo{
+  width:45px;
+  border:none;
+  display:flex;
+  justify-content: center;align-items: center;
+  font-size:1.2rem;
+  color:#0f1111;
+}
+.search:hover{
+  border:2px solid orange;
+}
+.country{
+  height:25px;
+  width: 42px;
+  display:flex;
+  justify-content: center ;
+  align-items: flex-end;
+}
+.country select{
+  background-color: #0F1111;
+  text-align:center;
+  color:white;
+  font-size: 1rem;
+  font-weight: 700;
+  border:none;
+}
+.hello{
+  text-align:left;
+}
+.hello span{
+  font-size:0.75rem;
+}
+.list select{
+  background-color: #0F1111;
+  color:white;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border:none;
+}
+.returns p span{
+  font-size:0.75rem;
+}
+.orders{
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.cart{
+  display:flex;
+  align-items: flex-end;;
+}
+.cart i{
+  font-size:1.6rem;
+}
+.cart p{
+  font-weight:700;
+  margin-left:2px;
+}
+
+.panel{
+  background-color:#232f3e;
+  height:40px;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;}
+
+ .tag{
+  display:flex;
+  gap:7px;
+  padding:2px;
+  font-weight: 700;
+  font-size: 1.08rem;
+  margin-left:-30px;
+ } 
+.items{
+  width:70%;
+  font-size:0.85rem;
+}
+ .items a{
+  color:white;
+  margin-left: 14px;
+  text-decoration: none;
+ }
+
+ .deals{
+  font-size:0.9rem;
+  font-weight: 700;
+ }
+ .bg{
+  background-image: url(main.jpg);
+  background-size: cover;
+  height:340px;
+  display:flex;
+  justify-content: center;
+  align-items: flex-end;
+ }
+ .bg .msg{ 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:40px; width:95.9%;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.85rem;
+  margin-bottom: 50px;
+ }
+ 
+  .msg p a{
+    color: #007185
+  }
+
+  .tough{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(223, 225, 217);
+  }
+
+  .box{
+    height:380px;
+    width:311px;
+    padding:20px 0px 15px;
+    background-color: white;
+    margin-top:25px;
+  }
+  .box h2{
+    margin-left:15px;
+    margin-bottom: 6px;}
+  .box p{
+    color: #007185;
+    margin-left:1rem;
+  }  
+
+  .box .image{
+    margin-top:1.7rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+    height:300px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  .tough .horizontal{
+    height:285px;
+    width:1336.9px;
+    padding:20px 20px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .horizontal .name{
+    display:flex;
+    align-items: flex-end;
+  }
+  .name p{
+    margin-left: 11px;
+    color:#007185;
+  }
+  .baby{
+    display:flex;
+    gap:30px;
+  }
+
+  .baby div{
+    margin-top:40px;
+    height:200px;
+    width:200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  footer .top{
+    height:20px;
+    padding:15px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color:white;
+    font-weight:400;
+  }
+  .top:hover{
+    background-color:#28313cf1;
+    cursor: pointer;
+  }
+  .panel2{
+    padding: 40px 70px;
+    display:flex;
+    background-color: #222f3d;
+    color:white;
+    justify-content: space-evenly;
+  }
+
+  .lis ul li{
+    list-style:none;
+    color: #cccccc;
+    margin-bottom:8px;
+  }
+
+  .lis li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .lis ul h3{
+    color:white;
+    margin-bottom: 13px;
+    text-decoration: none;
+  }
